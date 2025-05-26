@@ -1,0 +1,141 @@
+.calendar-section {
+  background-color: #f6faff;
+  padding: 15px 20px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-nav span {
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calendar-columns {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.calendar-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+}
+
+.calendar-column.disabled .time-cell {
+  background-color: #f3f4f6;
+  color: #cbd5e1;
+  pointer-events: none;
+}
+
+.calendar-column.column-highlight {
+  background-color:  #deedf8;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.day-header {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.day-name {
+  font-size: 12px;
+  color: #1e293b;
+}
+
+.day-date {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.time-cell {
+  background: #f1f5f9;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 32px;
+  margin: 4px 0;
+  width: 100%;
+  color: #1e293b;
+}
+
+.time-cell.highlighted {
+  background-color: #3834a8;
+  color: white;
+  font-weight: bold;
+}
+
+.time-cell.secondary {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
+.time-cell.disabled {
+  background-color: #f3f4f6;
+  color: #94a3b8;
+}
+
+.time-cell.no-slot {
+  background-color: transparent;
+  color: #94a3b8;
+  font-weight: bold;
+}
+
+.appointment-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.appointment-card {
+  flex: 1;
+  min-width: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.card-label {
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.card-icon {
+  font-size: 18px;
+}
+
+.card-time {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.card-doctor {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.sunday-column {
+  background-color: #f8fafc; 
+  border-radius: 6px;
+}
+

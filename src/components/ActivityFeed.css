@@ -1,0 +1,57 @@
+.activity-feed {
+  background: #f6faff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.activity-header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+}
+ .activity-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.activity-header .appointments-week {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 5px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+  height: 120px; 
+}
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bars-row {
+  display: flex;
+  gap: 4px; 
+  align-items: flex-end;
+}
+
+.bar {
+  width: 6px; 
+  background-color: #38bdf8;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.day-label {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #64748b;
+}
