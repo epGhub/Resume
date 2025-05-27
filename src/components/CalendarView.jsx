@@ -58,7 +58,7 @@ const CalendarView = () => {
   return (
     <div className="calendar-section">
       <div className="calendar-header">
-        <h4>October 2021</h4>
+        <h4>June 2025</h4>
         <div className="calendar-nav">
           <span className='calendar-nav-left'><WestIcon /></span>
           <span className='calendar-nav-right'><EastIcon /></span>
